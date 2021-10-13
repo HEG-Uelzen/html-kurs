@@ -1,0 +1,127 @@
+---
+import '@picocss/pico/css/pico.min.css';
+import 'prismjs/themes/prism-funky.css';
+import '../css/styles.css';
+
+
+const {title} = Astro.props;
+const {description} = Astro.props;
+
+
+let {previous} = Astro.props;
+let {next} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content="{description}" />
+    <link rel="icon" type="image/x-icon" href="/images/logo.png" />
+  </head>
+  <body class="container">
+    <nav class="container">
+      <ul style="align-items: center">
+        <li style="width: 15%; height: 15%; display: flex; align-items: center">
+          <a href="/" aria-label="Index page">
+            <img src="/images/logo.png" width="1669" height="1031" />
+          </a>
+        </li>
+        <li><strong>HTML - Kurs</strong></li>
+      </ul>
+      <ul>
+        <li>
+          <a href="{previous}" aria-label="previous page">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M0 0h24v24H0z" stroke="none" />
+              <path d="m15 6-6 6 6 6" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="{next}" aria-label="next page">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M0 0h24v24H0z" stroke="none" />
+              <path d="m9 6 6 6-6 6" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--main content-->
+    <main class="container">
+      <h1>{title}</h1>
+      <!-- slot: your page content will be injected here. -->
+      <slot />
+    </main>
+
+    <!--Footer-->
+    <footer class="grid container">
+      <div>
+        <a href="{previous}" aria-label="previous page">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M0 0h24v24H0z" stroke="none" />
+            <path d="m15 6-6 6 6 6" />
+          </svg>
+        </a>
+        <a href="{next}" aria-label="next page">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M0 0h24v24H0z" stroke="none" />
+            <path d="m9 6 6 6-6 6" />
+          </svg>
+        </a>
+      </div>
+      <div>
+        <small>
+          Logo von
+          <q>
+            <a href="https://isometriclove.com/" target="_blank" rel="noopener"
+              >isometriclove.com</a
+            >
+          </q>
+          (Name: <i>keyboard.png</i>)
+        </small>
+      </div>
+    </footer>
+  </body>
+</html>

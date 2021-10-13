@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+  main {
+    width: 75%;
+  }
+}
+
+svg.logo {
+  width: 72px;
+  height: 72px;
+  line-height: 1;
+  color: #ea580c;
+}
+
+.shadow {
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+figure {
+  width: 100%;
+  margin: auto;
+  padding: 3px;
+  overflow: visible;
+}
+
+figure > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mx-auto  {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,13 @@
+---
+import BaseLayout from "./BaseLayout.astro"
+const { content } = Astro.props;
+---
+
+<BaseLayout
+  title="{content.title}"
+  description="{content.description}"
+  next="{content.next}"
+  previous="{content.previous}"
+>
+  <slot />
+</BaseLayout>
