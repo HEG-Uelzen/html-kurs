@@ -19,9 +19,6 @@ Um in HTML einen zusammenhängenden Textblock darzustellen, kann man das `<p>` (
     <summary><strong>Beispiel:</strong></summary>
     <p>
         Der folgende Code zeigt die Anwendung der beiden erläuterten Elemente:
-        <button class="copy-to-clipboard-button" type="button" data-copy-state="copy">
-	<span>Copy</span>
-</button>
         <pre><code class="language-html">
         &lt;!DOCTYPE html>
         &lt;html lang="de">
@@ -49,7 +46,7 @@ Um in HTML einen zusammenhängenden Textblock darzustellen, kann man das `<p>` (
 
 ### Überschriften
 
-In HTML unterscheidet man zwischen mehreren Größenabstufungen: Es gibt Überschriften der 1., 2., 3., 4., 5. und 6. Ordnung. Das sogenannte `heading`-Element der ersten Überschrift wird als `<h1>HIER STEHT DIE ÜBERSCHRIFT</h1>` definiert. Die anderen Elemente unterscheiden sich in der Definition nur dahingehend, dass sie die Zahl ihrer Ordnung verweden:
+In HTML unterscheidet man zwischen mehreren Größenabstufungen: Es gibt Überschriften der 1., 2., 3., 4., 5. und 6. Ordnung. Das sogenannte `heading`-Element der ersten Überschrift wird als `<h1>HIER STEHT DIE ÜBERSCHRIFT</h1>` definiert. Die anderen Elemente unterscheiden sich in der Definition nur dahingehend, dass sie die Zahl ihrer Ordnung verwenden:
 
 <details>
     <summary><strong>Beispiel:</strong></summary>
@@ -88,7 +85,7 @@ In HTML unterscheidet man zwischen mehreren Größenabstufungen: Es gibt Übersc
 
 ### Sonstige Textformatierung
 
-Text kann fett dargestellt werden, in dem er in einen `<b></b>` Tag eingbettet wird. Für kursiven Text sorgt der `<i></i>` Tag. Beide Elemente können kombiniert.
+Text kann fett dargestellt werden, in dem er in einen `<b></b>` Tag eingebettet wird. Für kursiven Text sorgt der `<i></i>` Tag. Beide Elemente können kombiniert.
 
 Mit den Elementen `<big></big>` und `<small></small>`kann Text größer oder kleiner dargestellt werden.
 

@@ -106,4 +106,4 @@ Die Vorgehensweise um Videos in HTML anzuzeigen, ist ähnlich der von Audiodatei
 
 ## Das `iframe`-Element
 
-Das `<iframe></iframe>` Element ist ein besonderes Element: Es kann genutzt werden, um (beliebige) Inhalte anderer Websites einzubinden: So bietet beispielsweise YouTube die Einbindung von Videos der Plattform mithilfe des `iframe` Elements an. Aber auch andere Dienste (speziell die, die mediale Inhalte offerieren), bieten die Einbindung mit iframes an (wie z.B. Giphy).
+Das `<iframe></iframe>` Element ist ein besonderes Element: Es kann genutzt werden, um (beliebige) Inhalte anderer Websites einzubinden: So bietet beispielsweise YouTube die Einbindung von Videos der Plattform mithilfe des `iframe` Elements an. Aber auch andere Dienste (speziell die, die mediale Inhalte offerieren), bieten die Einbindung mit iframes an (wie z.B. [Giphy](https://giphy.com/)).
