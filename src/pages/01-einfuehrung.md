@@ -80,6 +80,6 @@ Der Inhalt des `<html>`-Elements lässt sich in zwei Bereiche aufteilen: das `<h
 <article>
   <header><strong>Aufgabe 1:</strong></header>
   <p>
-    Änderen sie die bereits entwickelte Webseite so ab, dass diese als Ausgabesprache Englisch verwendet. Veränderen sie sowohl den Inhalt als auch die Metadaten.
+    Ändern sie die bereits entwickelte Webseite so ab, dass diese als Ausgabesprache Englisch verwendet. Verändern sie sowohl den Inhalt als auch die Metadaten.
   </p>
 </article>
