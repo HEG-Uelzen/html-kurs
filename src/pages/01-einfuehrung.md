@@ -37,7 +37,7 @@ Speichern sie diese Datei nun unter einem beliebigen Namen (aber mit der Endung 
 
 ### 🦴 Das Skelett einer Webseite
 
-Eine HTML-Webseitebesteht aus verschiedenen (teils ineinander verschachtelten) Elementen. Ein Element wird wird mit folgend&shy;er Syntax definiert:
+Eine HTML-Webseite besteht aus verschiedenen (teils ineinander verschachtelten) Elementen. Ein Element wird wird mit folgend&shy;er Syntax definiert:
 
 ```html
 <ELEMENTBEZEICHNUNG>
